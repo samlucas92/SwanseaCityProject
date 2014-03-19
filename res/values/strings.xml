@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Swansea City Project</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="quiz_button">Quiz</string>
+    <string name="quiz_start">Start Quiz</string>
+	<string name="help_button">Help</string>
+    <string name="leader_button">Leaderboards</string>
+    <string name="settings_button">Settings</string>
+    <string name="leader_info">Top 10 scores</string>
+    <string name="result_info">Your final result of the quiz:</string>
+    <string name="cross_button">Start Crossbar Challenge</string>
+    <string name="sharescore">Share on Facebook</string>
+    <string name="APP_ID">1438781939689052</string>
+    
+    
+    <!-- Questions Strings-->
+    <string name="quizinfo">This is the Swansea City quiz. During this quiz you will be asked 10 question and then have a chance
+        to increase your score during the bonus round. The person at the top of the leaderboard at the end of the month will win
+        a special Swansea City prize.</string>
+    <string name="quizwarning">You will only be able to take this quiz once a month</string>
+    <string name="question1">Question 1</string>
+    	<string name="question1_text">Who was the first player to score a league goal at the Liberty Stadium?</string>
+	        <string name="q1a1">Adebayo Akinfenwa</string>
+	        <string name="q1a2">Rory Fallon</string>
+	        <string name="q1a3">Lee Trundle</string>
+	        
+    <string name="question2">Question 2</string>
+    	<string name="question2_text">In which season did Swansea take part in their first top division season?</string>
+	        <string name="q2a1">1987-1988</string>
+	        <string name="q2a2">1981-1982</string>
+	        <string name="q2a3">2012-2013</string>
+	<string name="question3">Question 3</string>
+    	<string name="question3_text">In 2001 how much were the Swans bought for?</string>
+	        <string name="q3a1">£100</string>
+	        <string name="q3a2">£1</string>
+	        <string name="q3a3">£10000</string>
+	<string name="question4">Question 4</string>
+    	<string name="question4_text">Who holds the record for the most appearances for Swansea City?</string>
+	        <string name="q4a1">Roger Freestone</string>
+	        <string name="q4a2">Ivor Allchurch</string>
+	        <string name="q4a3">Wilfred Milne</string>
+	<string name="question5">Question 5</string>
+    	<string name="question5_text">Currently who is the Swans highest recorded transfer?</string>
+	        <string name="q5a1">Leon Britton</string>
+	        <string name="q5a2">Wilfreid Bony</string>
+	        <string name="q5a3">Frank Lampard</string>	
+	<string name="question6">Question 6</string>
+    	<string name="question6_text">Who is the current chairman of Swansea City?</string>
+	        <string name="q6a1">Tony Petty</string>
+	        <string name="q6a2">Leigh Dineen</string>
+	        <string name="q6a3">Huw Jenkins</string>
+   	<string name="question7">Question 7</string>
+    	<string name="question7_text">Fan favorite Angel Rangel signed from which club?</string>
+	        <string name="q7a1">Barcelona</string>
+	        <string name="q7a2">Hartlepool</string>
+	        <string name="q7a3">Terrassa</string>	
+   	<string name="question8">Question 8</string>
+    	<string name="question8_text">Before moving to the Liberty what was the name of the Swans stadium?</string>
+	        <string name="q8a1">The Vetch Field</string>
+	        <string name="q8a2">Swansea Arena</string>
+	        <string name="q8a3">St Helens</string>	
+    <string name="question9">Question 9</string>
+    	<string name="question9_text">Who are the Swans fierce rivals?</string>
+	        <string name="q9a1">Wrexham</string>
+	        <string name="q9a2">Newport</string>
+	        <string name="q9a3">Cardiff</string>	
+    <string name="question10">Question 10</string>
+    	<string name="question10_text">Nick named "Magic-Daps" and "LT10", what is the true identity of this Swansea City legend?</string>
+	        <string name="q10a1">Leon Britton</string>
+	        <string name="q10a2">Ivor Allchurch</string>
+	        <string name="q10a3">Lee Trundle</string>
+    <string name="leaderinf">Top 10 scores</string>
+    <string name="firstlabel">First Name</string>
+    <string name="lastlabel">Last Name </string>
+    <string name="scorelabel">Score</string>
+    <string name="del_button">Delete</string>
+    <string name="question">Question:</string>
+    <string name="answer1">First answer:</string>
+    <string name="answer2">Second answer:</string>
+    <string name="answer3">Third answer:</string>
+    <string name="first_label">First Name:</string>
+    <string name="last_label">Last Name:</string>
+    <string name="email_label">Email Address:</string>    
+
+</resources>

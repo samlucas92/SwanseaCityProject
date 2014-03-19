@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:layout_marginLeft= "80dp"
+        android:text="@string/question8_text"
+		android:textColor="#FFFF"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/button_q8a1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/q8a1"/>
+
+    <Button
+        android:id="@+id/button_q8a2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_q8a1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/q8a2" />
+    <Button
+        android:id="@+id/button_q8a3"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_q8a2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/q8a3" />
+    <TextView
+        android:id="@+id/scoreQ8"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_q8a3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="" 
+        android:textAlignment="center"
+   		android:textColor="#FFFF"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/answer8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/scoreQ8"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"
+        android:layout_marginTop="14dp"
+        android:layout_marginLeft= "80dp"
+        android:text="@string/q8a1"
+		android:textColor="#FFFF"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="51dp"
+        android:text="@string/question8"
+        android:textColor="#FFFF"
+        android:textSize="30sp" />
+
+</RelativeLayout>

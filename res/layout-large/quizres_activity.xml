@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="130dp"
+        android:text="@string/result_info"
+        android:textColor="#FFFF"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/pointScored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:text=""
+        android:textColor="#FFFF"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/correctScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pointScored"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:text=""
+        android:textColor="#FFFF"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/button_crossbar"
+        android:layout_width="250dp"
+        android:layout_height="125dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="87dp"
+        android:text="@string/cross_button"
+        android:textSize="30sp" />
+    <EditText
+        android:id="@+id/first_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/email"
+        android:layout_below="@+id/correctScore"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/last_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/first_name"
+        android:layout_alignLeft="@+id/first_name"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/last_name"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:inputType="textEmailAddress" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/firstLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/first_name"
+        android:layout_alignBottom="@+id/first_name"
+        android:layout_toLeftOf="@+id/first_name"
+        android:text="@string/first_label"
+        android:textColor="#FFFF"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/lastLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/last_name"
+        android:layout_alignBottom="@+id/last_name"
+        android:layout_toLeftOf="@+id/last_name"
+        android:text="@string/last_label"
+        android:textColor="#FFFF"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/emailLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/email"
+        android:layout_alignBottom="@+id/email"
+        android:layout_toLeftOf="@+id/email"
+        android:text="@string/email_label"
+        android:textColor="#FFFF"
+        android:textSize="20sp" />
+    
+</RelativeLayout>

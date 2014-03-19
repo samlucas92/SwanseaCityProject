@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background" >
+    
+    <RelativeLayout>
+
+    <Button
+        android:id="@+id/del"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/del_button"
+        />
+
+    <TextView
+        android:id="@+id/leaderinf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+        android:textAlignment="center"       
+        android:textColor="#FFFF"
+        android:text="@string/leader_info"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    <TextView
+        android:id="@+id/firstNameLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:textColor="#FFFF"
+        android:text="@string/firstlabel"
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    <TextView
+        android:id="@+id/lastNameLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:textColor="#FFFF"
+        android:text="@string/lastlabel"
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    <TextView
+        android:id="@+id/scoreLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:textColor="#FFFF"
+        android:text="@string/scorelabel"
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    </RelativeLayout>
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+	    <TextView
+	        android:id="@+id/rankId"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+   	        android:padding="5dp" 
+	        android:textColor="#FFFF"
+	        android:textSize="20sp"
+	        android:textStyle="bold" />
+	    <TextView
+	        android:id="@+id/firstName"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:padding="5dp" 
+	        android:textColor="#FFFF"
+	        android:textSize="20sp"
+	        android:textStyle="bold"/>
+	    <TextView
+	        android:id="@+id/lastName"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:padding="5dp" 
+	        android:textColor="#FFFF"
+	        android:textSize="20sp"
+	        android:textStyle="bold"/>
+	    <TextView
+	        android:id="@+id/score"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:padding="5dp" 
+	        android:textColor="#FFFF"
+	        android:textSize="20sp"
+	        android:textStyle="bold"/>
+    
+
+
+        <ListView
+            android:id="@android:id/list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+        </ListView>
+
+    
+	</TableRow>
+</TableLayout>
